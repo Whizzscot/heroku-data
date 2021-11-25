@@ -1,0 +1,30 @@
+{
+  "name": "heroku-data",
+  "version": "1.0.0",
+  "description": "Trying out free Heroku databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Whizzscot/heroku-data.git"
+  },
+  "keywords": [
+    "heroku",
+    "database"
+  ],
+  "author": "Elliot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Whizzscot/heroku-data/issues"
+  },
+  "homepage": "https://github.com/Whizzscot/heroku-data#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
